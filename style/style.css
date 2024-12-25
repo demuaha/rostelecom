@@ -1,0 +1,691 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    font-family: "Rostelocom Basis", sans-serif;
+}
+
+header button {
+    border-radius: 12px !important;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: #669BBC;
+    color: white;
+    font-size: 14px;
+}
+
+header button:hover {
+    color: white;
+    background-color: #C11720;
+    transition: .3s;
+}
+
+header {
+    border-bottom: 1px solid;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header .links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    gap: 35px;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: black !important;
+}
+
+.right {
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+
+.navigate {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1600px;
+    width: 100%;
+    gap: 70px;
+}
+
+.slider {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 1300px;
+    /* padding-top: 50px; */
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.carousel img {
+    border-radius: 10px;
+
+}
+
+.carousel h5 {
+    color: white;
+    font-size: 32px;
+}
+
+.carousel p {
+    color: white;
+}
+
+.carousel-caption {
+    left: 5% !important;
+    text-align: start !important;
+    top: 8% !important;
+
+}
+
+.carousel-caption h5 {
+    padding-top: 70px !important;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    padding-top: 5px !important;
+    padding-bottom: 350px !important;
+}
+
+.carousel-caption button {
+    border-radius: 12px !important;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #669BBC;
+    color: white;
+    font-size: 16px;
+    z-index: 2 !important;
+    position: absolute !important;
+}
+
+.carousel-caption button:hover {
+    color: white;
+    background-color: #C11720;
+    transition: .3s;
+}
+
+.carousel-caption h1 {
+    font-size: 14px;
+    color: #10182880;
+}
+
+.popular-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popular .cards {
+    display: flex;
+    gap: 50px;
+}
+
+.popular .photo {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid !important;
+    border-radius: 10px;
+}
+
+.popular img {
+    width: 360px;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.popular img:hover {
+    transform: scale(1.25);
+}
+
+
+.popular .cards h1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popular h1 {
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.popular p {
+    font-size: 14px;
+}
+
+.tariffs {
+    --tariffs-cols: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--tariffs-cols), 1fr);
+
+    gap: 40px;
+}
+
+.tariffs .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 370px;
+
+    border: #524697 solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tariffs img {
+    width: 30px;
+    height: 30px;
+}
+
+.tariffs .option {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tariffs .mobile {
+    padding-bottom: 30px;
+}
+
+.tariffs .option p {
+    margin-bottom: 0px !important;
+}
+
+.tariffs .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    border-bottom: #524697 solid 1px;
+}
+
+.tariffs .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 50px;
+}
+
+
+.tariffs .price {
+    display: flex;
+    align-items: baseline;
+}
+
+.tariffs .price p {
+    margin-bottom: 0px !important;
+}
+
+.tariffs .price h2 {
+    margin-bottom: 0px !important;
+}
+
+.tariffs button {
+    border-radius: 7px !important;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: #669BBC;
+    color: white;
+    font-size: 14px;
+}
+
+.tariffs .center {
+    display: flex;
+    justify-content: center;
+}
+
+.tariffs .center a {
+    color: #C11720 !important;
+    text-decoration: underline !important;
+}
+
+.tariffs button:hover {
+    color: white;
+    background-color: #C11720;
+    transition: .3s;
+}
+
+.marusia {
+    background-color: #669BBC;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.marusia .right-side img {
+    border-radius: 15px;
+    max-width: 590px;
+    max-height: 386px;
+
+    width: 100%;
+    aspect-ratio: 16/9;
+
+    object-fit: cover;
+}
+
+.marusia .left-side .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding-top: 50px;
+}
+
+.marusia .button {
+    padding-top: 180px;
+}
+
+.marusia button {
+    border-radius: 7px !important;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: #C11720;
+    color: white;
+    font-size: 14px;
+}
+
+.marusia button:hover {
+    color: white;
+    background-color: #524697;
+    transition: .3s;
+}
+
+.payment {
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+
+.payment h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: white;
+    padding: 50px;
+    gap: 170px;
+}
+
+.payment button {
+    border-radius: 7px !important;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: #669BBC;
+    color: white;
+    font-size: 14px;
+}
+
+.payment button:hover {
+    color: white;
+    background-color: #C11720;
+    transition: .3s;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #898989;
+}
+
+.container-input .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.container-oplata {
+    /*TODO Сделать flex wrap */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.container-oplata img {
+    max-width: 700px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+footer {
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+footer .numbers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 167px;
+    border-top: #898989 1px solid;
+    border-bottom: #898989 1px solid;
+}
+
+footer .info {
+    display: flex;
+    justify-content: center;
+    height: 137px;
+    align-items: center;
+    gap: 144px;
+    border-bottom: #898989 1px solid;
+}
+
+footer .info img {
+    height: 59px;
+}
+
+footer .last {
+    display: flex;
+    justify-content: center;
+    gap: 215px;
+    height: 109px;
+    align-items: center;
+}
+
+footer p {
+    color: #898989;
+}
+
+footer h2 {
+    color: #6D727C;
+}
+
+footer a {
+    color: #898989 !important;
+    text-decoration: underline !important;
+}
+
+footer .last p {
+    max-width: 800px;
+}
+
+.best-tariffs h2 {
+    font-weight: bold;
+}
+
+@media(max-width:1600px) {
+    main {
+        width: 95%;
+    }
+
+    .tariffs {
+        --tariffs-cols: 3;
+        justify-items: center;
+    }
+
+    .right {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards .popular-services {
+        width: 360px;
+    }
+}
+
+@media (max-width: 1400px) {
+    footer .info {
+        gap: 50px;
+    }
+
+    footer .last {
+        gap: 50px;
+    }
+
+    .container-oplata img {
+        width: 550px;
+    }
+
+    .marusia {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .right {
+        width: 60%;
+    }
+
+    .tariffs {
+        --tariffs-cols: 2;
+    }
+
+    .container-oplata img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-oplata img {
+        width: 0px;
+    }
+
+    .container-input {
+        gap: 50px;
+    }
+
+    .marusia .button {
+        padding-top: 20px;
+    }
+
+    .navigate {
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .right {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carousel-caption p {
+        padding-top: 5px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .carousel-caption button {
+        width: 120px;
+        height: 35px;
+    }
+
+    .carousel-control-prev-icon {
+        opacity: 0;
+    }
+
+    .carousel-dark .carousel-control-next-icon {
+        opacity: 0;
+    }
+
+    footer .info {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    footer .last {
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .marusia {
+        background-image: url(../img/kolonka_mini-banner_3_2340x904_1224_0__proj.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .marusia .right-side img {
+        width: 0px;
+    }
+
+    .carousel-caption h5 {
+        padding-top: 30px !important;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        padding-top: 30px !important;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    header .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .info {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    footer .last {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    footer .last p {
+        text-align: center;
+    }
+
+    .popular h1 {
+        font-size: 24px;
+    }
+
+    .tariffs {
+        --tariffs-cols: 1;
+    }
+
+    .carousel-caption p {
+        padding-top: 5px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .carousel img {
+        width: 200px;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .carousel-caption p {
+        padding-top: 5px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .carousel img {
+        width: 200px;
+    }
+
+    .carousel h5 {
+        padding-top: 10px !important;
+    }
+
+    .carousel button {
+        width: 100px;
+        height: 30px;
+    }
+
+    .carousel-caption {
+        padding-top: 0px !important;
+    }
+
+    .marusia {
+        padding: 10px;
+    }
+    footer .numbers{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    .popular img {
+        width: 100%;
+    }
+
+    .container-input {
+        padding-right: 0px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+    }
+
+    .carousel-caption p {
+        padding-top: 0px !important;
+        padding-bottom: 5px !important;
+    }
+}
